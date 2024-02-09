@@ -14,8 +14,9 @@ main .hero-container {
 
 .hero h1 {
   position: absolute;
-
-  max-width: 65px;
+  top:50%;
+  right:50%;
+  max-width: 70px;
   margin: auto;
   color: white;
   background-color: rgb(78, 75, 75);
@@ -26,6 +27,7 @@ main .hero-container {
 .hero h1::after {
   content: "Architect";
   padding-left: 15px;
+  font-weight: 400;
 }
 @media (width <= 900px) {
   .hero h1::after {
