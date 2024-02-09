@@ -13,7 +13,7 @@ header nav {
     "hamburger brand tools" var(--nav-height)
     "sections sections sections" 1fr / auto 1fr auto;
   align-items: center;
-  gap: 0 20em;
+  gap: 0 23em;
   margin: auto;
   max-width: 1264px;
   height: var(--nav-height);
@@ -147,7 +147,10 @@ header .nav-brand {
   font-weight: 700;
   line-height: 1;
 }
-
+header .nav-brand:after {
+  content: "Architects";
+  padding: 3px;
+}
 header nav .nav-brand img {
   width: 280px;
   height: auto;
