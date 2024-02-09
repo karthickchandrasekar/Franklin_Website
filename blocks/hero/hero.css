@@ -13,13 +13,23 @@ main .hero-container {
 }
 
 .hero h1 {
-  max-width: 280px;
+  max-width: 65px;
   margin: auto;
   color: white;
-  background-color: rgb(58, 56, 56);
+  background-color: rgb(78, 75, 75);
   letter-spacing: 4px;
+  padding: 10px;
 }
 
+.hero h1::after {
+  content: "Architect";
+  padding-left: 15px;
+}
+@media (width <= 900px) {
+  .hero h1::after {
+    content: "";
+  }
+}
 .hero picture {
   position: absolute;
   z-index: -1;
