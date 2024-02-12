@@ -14,9 +14,9 @@ main .hero-container {
 
 .hero h1 {
   position: absolute;
-  top:50%;
-  right:50%;
-  max-width: 70px;
+  top: 50%;
+  right: 55%;
+  max-width: 60px;
   margin: auto;
   color: white;
   background-color: rgb(78, 75, 75);
